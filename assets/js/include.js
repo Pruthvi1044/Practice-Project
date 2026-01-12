@@ -12,6 +12,6 @@ function loadHTML(id, file) {
     .catch(error => console.error(error));
 }
 
-loadHTML("header", "header.html");
-loadHTML("body", "body.html");
-loadHTML("footer", "footer.html");
+loadHTML("header", "../../header.html");
+loadHTML("body", "../../body.html");
+loadHTML("footer", "../../footer.html");
